@@ -1,0 +1,109 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+.container 
+{
+    max-width: 1220px;
+    /* padding: 0px 20px; */
+    margin: 0 auto;
+}
+
+
+.header_title 
+{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px red;
+    font-size: 3rem;
+}
+.form 
+{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.input
+{
+    margin-left: 3rem;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #000;
+}
+.input::placeholder
+{
+    letter-spacing: 3px;
+    padding: 3px;
+}
+
+.btn_submit 
+{
+    border: none;
+    padding: 10px;
+    background: #009c00;
+    letter-spacing: 3px;
+    border-radius: 3px;
+}
+
+.wrapper 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.box 
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #00801c;
+    width: 250px;
+}
+.img 
+{
+    width: 240px;
+    height: 240px;
+    border: 2px solid #000;
+    margin: 3px;
+}
+.name 
+{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.price 
+{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-buy 
+{
+    margin-left: 30%;
+    padding: 5px 10px;
+    width: 100px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    border: none;
+    background-color: #0770d3;
+    transition: all 0.2s;
+}
+
+.btn-buy:hover
+{
+    cursor: pointer;
+    background-color: #0770d370;
+    box-shadow: inset 0px 0px 0px 2px #0770d3;
+} 
